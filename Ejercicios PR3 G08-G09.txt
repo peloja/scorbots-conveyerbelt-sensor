@@ -1,0 +1,57 @@
+
+                PROGRAM   RUTP3
+                *********************
+
+*coger PUNTO soltar PCINT
+GOSUB     COGE
+MOVED     INTER 
+SETP      PUNTO=PCINT
+SPEEDB    25
+MOVED     CR 
+GOSUB     SUELT
+MOVED     INTER 
+MOVED     0 
+*mover cinta
+SPEEDB    25
+MOVED     C3 
+*aviso al otro SCORBOT
+PRINT     "ENVIA"
+SET       OUT[8] = 1
+WAIT      IN[4] = 1
+SET       OUT[8] = 0
+WAIT      IN[4] = 0
+*recepcion aviso otro SCORBOT
+PRINT     "RECIBE"
+SET       OUT[8] = 0
+WAIT      IN[4] = 1
+SET       OUT[8] = 1
+WAIT      IN[4] = 0
+SET       OUT[8] = 0
+*resetear senal y cinta
+SPEED     50
+MOVED     CR 
+END       
+
+                PROGRAM   P3EJ1
+                *********************
+
+*robot y cinta al inicio
+MOVED     0 
+*establecer alto y gosub
+SET       ALTO = 1500
+SET       OUT[8] = 0
+WAIT      IN[2] = 1
+*coger piezas alternativamente
+SETP      PUNTO=MAD1
+GOSUB     RUTP3
+SETP      PUNTO=MET1
+GOSUB     RUTP3
+SETP      PUNTO=MAD0
+GOSUB     RUTP3
+SETP      PUNTO=MET0
+GOSUB     RUTP3
+SETP      PUNTO=MAD2
+GOSUB     RUTP3
+MOVED     0 
+END       
+(END)

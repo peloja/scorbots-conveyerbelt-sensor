@@ -1,0 +1,615 @@
+
+$v  1 PIEZA 0
+$v  2 T 0
+$l  3 TIMEAP2E41  370
+$l  4 TIMEBP2E42  370
+$l  5 VALUEP2E51  1
+$l  6 SIGN P2E51 0
+$l  7 TIMEACINTA  848991
+$l  8 TIMEBCINTA  139
+$v  9 SING  1
+$l  10 VALUEP2E52  1
+$l  11 SIGN P2E52 0
+$v  12 SING2 0
+$l  13 MET  P2E6  1
+$v  14 PM 0
+$v  15 PMA  1
+$p  1  1 0 0 0 0 0 0 0
+$p  2  1 1  635  11453 -9534 -1565 -361 0
+$p  3  1 2 -255  13327 -6438 -1336 -282 0
+$p  4  1 3  2512  13397 -6438 -1856 -793 0
+$p  5  1 4 -4584  13783 -5963 -432  675 0
+$p  6  1 5 -4585  13002 -5934 -432  674 0
+$p  7  1 6 -4580  12424 -5777 -437  665 0
+$p  8  1 POS -17328  6168 -4456 -391  837 0
+$p  9  1 9 -7452  11853 -8578 -1586 -378 0
+$p  10  1 7  634  9086 -8057 -1564 -360 0
+$p  11  1 10 -16887  6858 -7869 -784  499 0
+$p  12  1 POSC -17328  7444 -7036 -390  840 0
+$p  13  1 POSA -1063  12463 -7618 -465  456 0
+$p  14  1 POSB  4992  12460 -7610 -464  456 0
+$p  15  1 POSB2  4992  11858 -7484 -464  456 0
+$p  16  1 POSB3  4992  11136 -7197 -464  456 0
+$p  17  1 POSA2 -1064  11880 -7494 -464  457 0
+$p  18  1 POSA3 -1064  11263 -7186 -464  457 0
+$p  19  1 BORR  4990  9112 -1011 -458  458 0
+$p  20  1 POSAA -1060  11261 -7121 -459  459 0
+$p  21  1 POSBA  4989  10734 -6764 -458  458 0
+$p  1  2 00 0 0 0
+$p  2  2 12 -22272 0 0
+$p  3  2 11 -25481 0 0
+$pr  1 P1EJ3
+$pr  2 P1EJ4
+$pr  3 P1E4
+$pr  4 P3EJ5
+$pr  5 P2E1
+$pr  6 APROX
+$pr  7 ACERC
+$pr  8 ALEJ
+$pr  12 PRUEB
+$pr  13 PR2
+$pr  15 EMER
+$pr  16 P2EJ3
+$pr  17 EJEC
+$pr  18 P2E41
+$pr  19 P2E42
+$pr  20 P2E51
+$pr  21 CINTA
+$pr  22 P2E52
+$pr  23 CINT2
+$pr  24 P2E6
+$pr  25 P3
+$par  1 -400  120  333 0 0  50  12  30
+$par  9 0  44 0 0 0 0 0 0
+$par  17 0 0 0 0  200  200  200  250
+$par  25  250  180  700  700  700  700  700 0
+$par  33  12770 -10216  10216  5022  5022 0 0 0
+$par  41  250  250  250  300  300  500  500  500
+$par  49  500  500  500 0  13653 -2867  1773 0
+$par  57 0 0 0 0  1000  2500  2500  1200
+$par  65  1200  1500  1200  1200  1200  1200  1200  1
+$par  73  5400 0  3500  5 0  1  2 0
+$par  81 0 0 0 0 0 0 0 0
+$par  89 0 0 0 0  160  3490  2210  2210
+$par  97  1450 0 0 0  24330  17160  21000  16000
+$par  105  16000  32767  32767  32767  32767  32767  32767 0
+$par  113 0 0 0 0 0 0 0 0
+$par  121 -18830 -400 -32000 -16000 -16000 -32768 -32768 -32768
+$par  129 -32768 -32768 -32768 0 0 0 0 0
+$par  137 0 0 0 0  3000  3000  3000  3000
+$par  145  3000  3000  16000  16000  16000  16000  16000 0
+$par  153 0 0 0 0 0 0 0 0
+$par  161  4500  4500  4500  4500  4500  4900  4500  4500
+$par  169  4500  4500  4500 0 0 0 0 0
+$par  177 0 0 0 0  5  5  3  5
+$par  185  5  25  10  10  10  10  10 0
+$par  193 0 0 0 0 0 0 0 0
+$par  201  4500  4000  4000  4000  4000  4000  3000  3000
+$par  209  3000  3000  3000 0 0 0 0 0
+$par  217 0 0 0 0  4500  6000  6000  3000
+$par  225  3000  6000  3000  3000  3000  3000  3000 0
+$par  233 0 0 0 0 0 0 0 0
+$par  241  24  24  30  24  24  12  5  5
+$par  249  5  5  5 0 0 0 0 0
+$par  257 0 0 0 0  20  20  20  20
+$par  265  20  10  10  10  10  10  10  1
+$par  273 0 0 0 0 0 0 0 0
+$par  281  4600  4600  4000  4600  4600  4900  4000  4000
+$par  289  4000  4000  4000 0 0  8000  50  40
+$par  297  50  30  660  15 0 0 0 0
+$par  305 0 0 0 0 0 0 0
+
+                PROGRAM   P1EJ3
+                *********************
+
+SPEED     20
+OPEN      
+MOVED     0 
+MOVED     1 
+CLOSE     
+MOVED     0 
+MOVED     3 
+OPEN      
+MOVED     0 
+MOVED     3 
+OPEN      
+MOVED     0 
+SPEED     20
+OPEN      
+MOVED     0 
+MOVED     1 
+CLOSE     
+MOVED     0 
+END       
+
+                PROGRAM   P1EJ4
+                *********************
+
+OPEN      
+MOVED     0 
+SPEED     50
+MOVED     4 
+SPEED     12
+SPEED     25
+MOVED     1 
+CLOSE     
+MOVED     4 
+SPEED     50
+MOVED     5 
+SPEED     12
+SPEED     25
+MOVED     3 
+OPEN      
+MOVED     5 
+SPEED     50
+MOVED     0 
+END       
+
+                PROGRAM   P1E4
+                *********************
+
+OPEN      
+MOVED     0 
+SPEED     50
+MOVED     4 
+SPEED     12
+MOVED     1 
+CLOSE     
+MOVED     4 
+SPEED     50
+MOVED     0 
+MOVED     5 
+SPEED     12
+MOVED     3 
+OPEN      
+MOVED     5 
+SPEED     50
+MOVED     0 
+END       
+
+                PROGRAM   P3EJ5
+                *********************
+
+OPEN      
+MOVED     0 
+MOVED     1 
+CLOSE     
+SPEED     25
+MOVED     0 
+MOVED     4 
+OPEN      
+MOVED     0 
+MOVED     2 
+CLOSE     
+MOVED     0 
+MOVED     5 
+OPEN      
+MOVED     0 
+MOVED     3 
+CLOSE     
+MOVED     0 
+MOVED     6 
+OPEN      
+MOVED     0 
+MOVED     6 
+CLOSE     
+MOVED     0 
+MOVED     3 
+OPEN      
+MOVED     0 
+MOVED     5 
+CLOSE     
+MOVED     0 
+MOVED     2 
+OPEN      
+MOVED     0 
+MOVED     4 
+CLOSE     
+MOVED     0 
+MOVED     1 
+OPEN      
+MOVED     0 
+END       
+
+                PROGRAM   P2E1
+                *********************
+
+SETP      POS=4
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+GOSUB     ALEJ
+MOVED     0 
+OPEN      
+MOVED     0 
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+GOSUB     ALEJ
+MOVED     0 
+END       
+
+                PROGRAM   APROX
+                *********************
+
+SHIFTC    POS BY Z  1000
+SPEED     50
+MOVED     POS 
+END       
+
+                PROGRAM   ACERC
+                *********************
+SPEED     25
+SHIFTC    POS BY Z  -1000
+MOVED     POS 
+END       
+
+                PROGRAM   ALEJ
+                *********************
+
+SPEED     25
+SHIFTC    POS BY Z  1000
+MOVED     POS 
+PRINT     "ALEJ"
+END       
+
+                PROGRAM   PRUEB
+                *********************
+
+TRIGGER   PR2 BY  IN 1 1
+MOVE      2 
+END       
+
+                PROGRAM   PR2
+                *********************
+
+MOVED     2 
+END       
+
+                PROGRAM   EMER
+                *********************
+
+SUSPEND   P2EJ3
+SPEED     50
+IF        PIEZA = 1
+  SETP      POS=9
+  GOSUB     APROX
+  GOSUB     ACERC
+  OPEN      
+  GOSUB     ALEJ
+  MOVED     0 
+ELSE
+  MOVED     0 
+ENDIF
+WAIT      IN[1] = 1
+IF        PIEZA = 1
+  SETP      POS=9
+  GOSUB     APROX
+  GOSUB     ACERC
+  CLOSE     
+  GOSUB     ALEJ
+  MOVED     0 
+ENDIF
+CONTINUE  P2EJ3
+END       
+
+                PROGRAM   P2EJ3
+                *********************
+
+SET       OUT[1] = 1
+WAIT      IN[1] = 1
+SET       OUT[1] = 0
+TRIGGER   EMER BY  IN 1 0
+OPEN      
+SET       PIEZA = 0
+MOVED     0 
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+SET       PIEZA = 1
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=4
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+SET       PIEZA = 0
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=2
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+SET       PIEZA = 1
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=5
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+SET       PIEZA = 0
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=3
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+SET       PIEZA = 1
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=6
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+SET       PIEZA = 0
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=6
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+SET       PIEZA = 1
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=3
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+SET       PIEZA = 0
+GOSUB     ALEJ
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=5
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+SET       PIEZA = 1
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=2
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+SET       PIEZA = 0
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=4
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+SET       PIEZA = 1
+GOSUB     ALEJ
+MOVED     0 
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+SET       PIEZA = 0
+GOSUB     ALEJ
+MOVED     0 
+END       
+
+                PROGRAM   EJEC
+                *********************
+
+MOVED     0 
+MOVED     1 
+RUN       P2E41
+RUN       P2E42
+END       
+
+                PROGRAM   P2E42
+                *********************
+
+SET       T = 0
+PEND      TIMEB FROM T
+PRINTLN   "TIEMPO="
+PRINT      TIMEB"CSEG"
+IF        TIMEB > 300
+  MOVED     7 TIMEB
+  MOVED     1 TIMEB
+ENDIF
+END       
+
+                PROGRAM   P2E41
+                *********************
+
+WAIT      IN[1] = 1
+SET       TIMEA = TIME
+WAIT      IN[1] = 0
+SET       TIMEA=TIME - TIMEA
+POST      TIMEA TO T
+END       
+
+                PROGRAM   CINTA
+                *********************
+
+SET       TIMEA = TIME
+SET       ANOUT[7] = -1500
+LABEL     1
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 130
+  SET       ANOUT[7] = -2000
+ELSE
+  GOTO      1
+ENDIF
+SET       TIMEA = TIME
+LABEL     2
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 430
+  SET       ANOUT[7] = -1500
+ELSE
+  GOTO      2
+ENDIF
+SET       TIMEA = TIME
+LABEL     3
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 130
+  SET       ANOUT[7] = 0
+ELSE
+  GOTO      3
+ENDIF
+SET       TIMEA = TIME
+LABEL     4
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 100
+  SET       ANOUT[7] = 1500
+ELSE
+  GOTO      4
+ENDIF
+SET       TIMEA = TIME
+LABEL     5
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 130
+  SET       ANOUT[7] = 2000
+ELSE
+  GOTO      5
+ENDIF
+SET       TIMEA = TIME
+LABEL     6
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 400
+  SET       ANOUT[7] = 1500
+ELSE
+  GOTO      6
+ENDIF
+SET       TIMEA = TIME
+LABEL     7
+SET       TIMEB=TIME - TIMEA
+IF        TIMEB > 130
+  SET       ANOUT[7] = 0
+ELSE
+  GOTO      7
+ENDIF
+POST      1 TO SING
+END       
+
+                PROGRAM   P2E51
+                *********************
+
+OPEN      
+MOVED     0 
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+GOSUB     ALEJ
+SETP      POS=10
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+GOSUB     ALEJ
+RUN       CINTA
+SET       SING = 0
+PEND      VALUE FROM SING
+GOSUB     ACERC
+CLOSE     
+GOSUB     ALEJ
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+GOSUB     ALEJ
+END       
+
+                PROGRAM   P2E52
+                *********************
+
+OPEN      
+MOVED     0 
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+CLOSE     
+GOSUB     ALEJ
+SETP      POS=10
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+GOSUB     ALEJ
+RUN       CINT2
+SET       SING2 = 0
+PEND      VALUE FROM SING2
+GOSUB     ACERC
+CLOSE     
+GOSUB     ALEJ
+SETP      POS=1
+GOSUB     APROX
+GOSUB     ACERC
+OPEN      
+GOSUB     ALEJ
+END       
+
+                PROGRAM   CINT2
+                *********************
+
+MOVED     12 
+DELAY     100
+MOVED     11 
+POST      1 TO SING2
+END       
+
+                PROGRAM   P2E6
+                *********************
+
+SET       ANOUT[7] = -1500
+SET       MET = 0
+LABEL     1
+DELAY     10
+IF        IN[2] = 1
+  SET       MET=MET + 1
+  DELAY     200
+  PRINTLN   "NUM DE METALES:"
+  PRINT      MET
+ENDIF
+GOTO      1
+END       
+
+                PROGRAM   P3
+                *********************
+
+SETP      POSAA=POSA
+SETP      POSBA=POSB
+LABEL     1
+MOVED     0 
+SETP      POS=POSC
+GOSUB     APROX
+PRINT     "ESCUCHA"
+SET       OUT[5] = 0
+WAIT      IN[1] = 1
+SET       OUT[5] = 1
+WAIT      IN[1] = 0
+SET       OUT[5] = 0
+GOSUB     ACERC
+CLOSE     
+IF        IN[2] = 1
+  SET       PIEZA = 1
+ELSE
+  SET       PIEZA = 0
+ENDIF
+GOSUB     ALEJ
+PRINT     "ESCRIBO"
+SET       OUT[5] = 1
+WAIT      IN[1] = 1
+SET       OUT[5] = 0
+WAIT      IN[1] = 0
+IF        PIEZA = 1
+  SETP      POS=POSAA
+  GOSUB     APROX
+  GOSUB     ACERC
+  OPEN      
+  GOSUB     ALEJ
+  SHIFTC    POSAA BY Z  260
+ELSE
+  SETP      POS=POSBA
+  GOSUB     APROX
+  GOSUB     ACERC
+  OPEN      
+  GOSUB     ALEJ
+  SHIFTC    POSBA BY Z  260
+ENDIF
+GOTO      1
+END       
+(END)
